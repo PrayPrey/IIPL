@@ -18,6 +18,9 @@ def custom2(a,b):
     return a%b
 
 
+def custom3(a,b):
+    return a**b
+
 
 if __name__ == '__main__':
 
@@ -46,6 +49,8 @@ if __name__ == '__main__':
         result = custom(input1, input2)
     elif act == "%":
         result = custom2(input1, input2)
+    elif act == "**":
+        result = custom3(input1, input2)
 
 
     print(f"사칙연산 결과는 {result}입니다.")
