@@ -11,6 +11,8 @@ def mul(a,b):
 def divide(a,b):
     return a/b
 
+def custom(a,b):
+    return a//b
 
 
 
@@ -38,6 +40,8 @@ if __name__ == '__main__':
         result = mul(input1, input2)
     elif act == '/':
         result = divide(input1, input2)
+    elif act == '//':
+        result = custom(input1, input2)
 
 
     print(f"사칙연산 결과는 {result}입니다.")
